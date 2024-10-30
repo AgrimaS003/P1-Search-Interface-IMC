@@ -1,0 +1,160 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #E6E1F1; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #EBD3F8, #AD49E1, #7A1CAC, #2E073F); /* Gradient background */
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  margin-right: 15px;
+}
+
+.dropbtn {
+  background-color: #B8A1E1;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dropbtn:hover {
+  background-color: #9C84C7;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(178, 162, 206, 0.752);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(156, 132, 199, 0.9);
+}
+
+.dropdown.show .dropdown-content {
+  display: block;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #B8A1E1; 
+  border-radius: 20px; 
+  padding: 8px;
+  background-color: white;
+  /* opacity: 0.9; */
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: none;
+  outline: none;
+  color: #B8A1E1;
+}
+
+/* Search Icon */
+.search-icon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+  
+.search-icon img {
+  width: 24px;
+  height: 24px;
+  filter: invert(53%) sepia(18%) saturate(1627%) hue-rotate(212deg) brightness(100%) contrast(97%);
+}
+
+#search-category-message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}  
+
+/* Dynamic Background Image */
+body.background-software {
+  background-image: url('imgs/software.jpg'); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.background-web {
+  background-image: url('imgs/web.jpg'); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.background-data {
+  background-image: url('imgs/data.jpg'); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.background-it {
+  background-image: url('imgs/it.jpg'); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.background-netadmin {
+  background-image: url('imgs/netadmin.jpg'); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.background-everything {
+  background-image: url('imgs/everything.jpg'); /* Replace with your own image URL  */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
